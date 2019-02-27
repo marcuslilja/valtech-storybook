@@ -1,0 +1,54 @@
+$spaces: (
+  tiny: 10px,
+  small: 20px,
+  medium: 40px,
+  large: 60px,
+);
+
+@function space($space) {
+  @return map-get($spaces, $space);
+}
+
+@mixin space-modifiers {
+  @each $size, $space in $spaces {
+    &.padding-#{$size} {
+      padding: $space;
+    }
+
+    &.paddingTop-#{$size} {
+      padding-top: $space;
+    }
+
+    &.paddingLeft-#{$size} {
+      padding-left: $space;
+    }
+
+    &.paddingRight-#{$size} {
+      padding-right: $space;
+    }
+
+    &.paddingBottom-#{$size} {
+      padding-bottom: $space;
+    }
+
+    &.margin-#{$size} {
+      margin: $space;
+    }
+
+    &.marginTop-#{$size} {
+      margin-top: $space;
+    }
+
+    &.marginLeft-#{$size} {
+      margin-left: $space;
+    }
+
+    &.marginRight-#{$size} {
+      margin-right: $space;
+    }
+
+    &.marginBottom-#{$size} {
+      margin-bottom: $space;
+    }
+  }
+}

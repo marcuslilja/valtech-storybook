@@ -1,0 +1,14 @@
+$fontFamilies: (
+  primary: (
+    'Oswald',
+    sans-serif,
+  ),
+  secondary: (
+    'Lato',
+    sans-serif,
+  ),
+);
+
+@function font-family($font) {
+  @return map-get($fontFamilies, $font);
+}

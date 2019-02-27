@@ -1,0 +1,24 @@
+@import '../../styles/helpers.scss';
+
+.box {
+  @include color-modifiers();
+  @include space-modifiers();
+
+  display: block;
+
+  &.display-flex {
+    display: flex;
+  }
+
+  &.flexDirection-row {
+    flex-direction: row;
+  }
+
+  &.justifyContent-center {
+    justify-content: center;
+  }
+
+  &.alignItems-center {
+    align-items: center;
+  }
+}

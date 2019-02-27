@@ -1,0 +1,7 @@
+@import '../../styles/helpers.scss';
+
+.line {
+  height: 1px;
+
+  @include color-modifiers();
+}

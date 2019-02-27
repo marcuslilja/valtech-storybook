@@ -1,0 +1,30 @@
+$colors: (
+  alto: #d6d6d6,
+  white: #ffffff,
+  black: #000000,
+  midGray: #616266,
+  mercury: #e8e8e8,
+  coralPink: #ff565c,
+  almostBlack: #1d1f24,
+  catskillWhite: #f9fafc,
+);
+
+@function color($color) {
+  @if map-has-key($colors, $color) {
+    @return map-get($colors, $color);
+  }
+
+  @return $color;
+}
+
+@mixin color-modifiers {
+  @each $name, $color in $colors {
+    &.color-#{$name} {
+      color: $color;
+    }
+
+    &.backgroundColor-#{$name} {
+      background-color: $color;
+    }
+  }
+}

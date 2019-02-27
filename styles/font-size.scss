@@ -1,0 +1,18 @@
+$fontSizes: (
+  tiny: 12px,
+  small: 16px,
+  medium: 24px,
+  large: 30px,
+);
+
+@function font-size($size) {
+  @return map-get($fontSizes, $size);
+}
+
+@mixin font-size-modifiers {
+  @each $name, $size in $fontSizes {
+    &.fontSize-#{$name} {
+      font-size: $size;
+    }
+  }
+}

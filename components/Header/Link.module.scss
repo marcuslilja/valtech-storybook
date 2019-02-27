@@ -1,0 +1,16 @@
+@import '../../styles/helpers.scss';
+
+.link {
+  margin-right: space(large);
+  color: color(alto);
+  font-size: font-size(tiny);
+  font-family: font-family(primary);
+  font-weight: font-weight(medium);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  &:last-child() {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,22 @@
+@import '../../styles/helpers.scss';
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  @for $i from 1 through 3 {
+    &.columns-#{$i} {
+      grid-template-columns: repeat($i, 1fr);
+    }
+  }
+
+  @each $size, $space in $spaces {
+    &.rowGap-#{$size} {
+      grid-row-gap: $space;
+    }
+
+    &.columnGap-#{$size} {
+      grid-column-gap: $space;
+    }
+  }
+}

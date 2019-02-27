@@ -1,0 +1,9 @@
+@import '../../styles/helpers.scss';
+
+.heading1 {
+  color: color(almostBlack);
+  font-size: font-size(30);
+  font-family: font-family(primary);
+  font-weight: font-weight(bold);
+  line-height: 1.25;
+}

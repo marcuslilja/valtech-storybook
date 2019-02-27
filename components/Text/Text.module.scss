@@ -1,0 +1,39 @@
+@import '../../styles/helpers.scss';
+
+.text {
+  @include color-modifiers();
+  @include font-size-modifiers();
+  @include font-weight-modifiers();
+
+  &.textAlign-left {
+    text-align: left;
+  }
+
+  &.textAlign-right {
+    text-align: right;
+  }
+
+  &.textAlign-center {
+    text-align: center;
+  }
+
+  &.fontFamily-primary {
+    font-family: font-family(primary);
+  }
+
+  &.fontFamily-seconary {
+    font-family: font-family(secondary);
+  }
+
+  &.textTransform-uppercase {
+    text-transform: uppercase;
+  }
+
+  &.textDecoration-none {
+    text-decoration: none;
+  }
+
+  &.letterSpacing-2 {
+    letter-spacing: 2px;
+  }
+}

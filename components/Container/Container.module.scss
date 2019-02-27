@@ -1,0 +1,22 @@
+@import '../../styles/helpers.scss';
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+
+  &.width-tiny {
+    max-width: container(tiny);
+  }
+
+  &.width-small {
+    max-width: container(small);
+  }
+
+  &.width-medium {
+    max-width: container(medium);
+  }
+
+  &.width-large {
+    max-width: container(large);
+  }
+}
