@@ -9,7 +9,7 @@ export default function Label(props) {
   return (
     <Text
       as={Box}
-      color="white"
+      color="glacierWhite"
       fontSize="tiny"
       fontFamily="primary"
       fontWeight="medium"

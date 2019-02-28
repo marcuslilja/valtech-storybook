@@ -28,7 +28,7 @@ stories.add('Grid', () => {
         {columnValues.map((item) => (
           <Grid.Item key={item}>
             <Box padding="small" backgroundColor="coralPink">
-              <Text color="white" textAlign="center" fontWeight="bold">
+              <Text color="glacierWhite" textAlign="center" fontWeight="bold">
                 Column {item}
               </Text>
             </Box>

@@ -14,7 +14,7 @@ export default function FeaturedCard(props) {
   return (
     <Box
       style={{ boxShadow: '0 5px 15px 0 rgba(0, 0, 0, 0.05)' }}
-      backgroundColor="white"
+      backgroundColor="glacierWhite"
     >
       {image.src && <Image {...image} />}
       <Box padding="small">

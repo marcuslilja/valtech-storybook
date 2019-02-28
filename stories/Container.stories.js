@@ -22,7 +22,7 @@ stories.add('Container', () => {
   return (
     <Container width={width}>
       <Box padding="small" backgroundColor="coralPink">
-        <Text color="white" textAlign="center" fontWeight="bold">
+        <Text color="glacierWhite" textAlign="center" fontWeight="bold">
           Container
         </Text>
       </Box>

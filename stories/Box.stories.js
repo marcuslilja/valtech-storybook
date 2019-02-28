@@ -17,12 +17,12 @@ stories.add('Box', () => {
     'Backgroundcolor',
     {
       Alto: 'alto',
-      White: 'white',
       Black: 'black',
       MidGray: 'midGray',
       Mercury: 'mercury',
       CoralPink: 'coralPink',
       AlmostBlack: 'almostBlack',
+      GlacierWhite: 'glacierWhite',
       CatskillWhite: 'catskillWhite',
     },
     'alto',
@@ -43,7 +43,7 @@ stories.add('Box', () => {
   return (
     <Container width="large">
       <Box margin={margin} padding={padding} backgroundColor={backgroundColor}>
-        <Text color="white" textAlign="center" fontWeight="bold">
+        <Text color="glacierWhite" textAlign="center" fontWeight="bold">
           Box
         </Text>
       </Box>
