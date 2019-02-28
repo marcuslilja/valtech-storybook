@@ -16,12 +16,12 @@ stories.add('Text', () => {
     'Color',
     {
       Alto: 'alto',
-      White: 'white',
       Black: 'black',
       MidGray: 'midGray',
       Mercury: 'mercury',
       CoralPink: 'coralPink',
       AlmostBlack: 'almostBlack',
+      GlacierWhite: 'glacierWhite',
       CatskillWhite: 'catskillWhite',
     },
     'almostBlack',

@@ -9,7 +9,7 @@ export default function ArticleCard(props) {
   const { label, author = {}, heading, publishedAt } = props;
 
   return (
-    <Box backgroundColor="white">
+    <Box backgroundColor="glacierWhite">
       <Box padding="small">
         <Box marginBottom="tiny">
           <Text
