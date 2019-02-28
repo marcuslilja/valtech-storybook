@@ -12,6 +12,7 @@ import Container from '../../components/Container';
 import ArticleCard from '../../components/ArticleCard';
 import FeaturedCard from '../../components/FeaturedCard';
 import HeaderNavigation from '../../components/HeaderNavigation';
+import FooterNavigation from '../../components/FooterNavigation';
 
 const stories = storiesOf('Pages', module);
 
@@ -81,5 +82,6 @@ stories.add('Page Example #B', () => (
         </Grid>
       </Container>
     </Box>
+    <FooterNavigation />
   </>
 ));

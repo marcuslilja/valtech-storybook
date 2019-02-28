@@ -11,6 +11,7 @@ import Grid from '../../components/Grid';
 import Container from '../../components/Container';
 import ImageCard from '../../components/ImageCard';
 import HeaderNavigation from '../../components/HeaderNavigation';
+import FooterNavigation from '../../components/FooterNavigation';
 
 const stories = storiesOf('Pages', module);
 
@@ -40,5 +41,6 @@ stories.add('Page Example #A', () => (
         </Grid>
       </Container>
     </Box>
+    <FooterNavigation />
   </>
 ));
