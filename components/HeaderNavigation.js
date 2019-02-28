@@ -15,8 +15,6 @@ export default function HeaderNavigation() {
         <Header.Link href="#leadership">Leadership</Header.Link>
         <Header.Link href="#video">Video</Header.Link>
         <Header.Link href="#news">News</Header.Link>
-        <Header.Link href="#finance">Finance</Header.Link>
-        <Header.Link href="#entertainment">Entertainment</Header.Link>
       </Header.Navigation>
     </Header>
   );
